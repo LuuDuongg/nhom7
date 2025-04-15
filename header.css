@@ -1,0 +1,52 @@
+/* header.css */
+.topbar {
+  background-color: #d70018;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.topbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.topbar .menu-left,
+.topbar .menu-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.topbar .search-box input {
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: none;
+  width: 250px;
+}
+
+.topbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.topbar a:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  font-size: 16px;
+}
+
+.btn {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 6px 12px;
+  border-radius: 8px;
+}
