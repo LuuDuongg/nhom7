@@ -16,6 +16,6 @@ if (!isset($_SESSION['username'])) {
 <body>
     <h2>Chào mừng, <?= $_SESSION['username'] ?>!</h2>
     <p>Đăng nhập thành công.</p>
-    <a href="logout.php">Đăng xuất</a>
+    <a href="Logout.php">Đăng xuất</a>
 </body>
 </html>
