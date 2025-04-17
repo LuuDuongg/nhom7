@@ -11,7 +11,7 @@ if (!isset($_SESSION['username'])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Trang Chủ</title>
+    <title>Trang Chủ Duy</title>
 </head>
 <body>
     <h2>Chào mừng, <?= $_SESSION['username'] ?>!</h2>
